@@ -1,0 +1,9 @@
+.browsePage .content {
+  margin: 50px;
+  height: 100vh;
+}
+
+.browsePage h1 {
+  text-align: center;
+  margin-top: 20px;
+}

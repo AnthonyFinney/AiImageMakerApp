@@ -1,0 +1,56 @@
+.homePage {}
+
+.homePage .gridContainer {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr .5fr 1fr;
+  grid-template-rows: 1fr .5fr .5fr 1fr;
+  background-image: url("../assets/homeBgImage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.homePage .gridContainer h1 {
+  color: whitesmoke;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #0000003e;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 15px;
+  white-space: nowrap;
+}
+
+.homePage .gridContainer .buttonGroup {
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #0000003e;
+  border-radius: 0px 0px 20px 20px;
+  margin-bottom: 10px;
+}
+
+.homePage .gridContainer button {
+  height: 60px;
+  width: 90px;
+  margin: auto;
+  border-radius: 2;
+  border: 3px solid #000000;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #00000000;
+  color: whitesmoke;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  transition: all 0.2s;
+}
+
+.homePage .gridContainer button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  text-shadow: none;
+}

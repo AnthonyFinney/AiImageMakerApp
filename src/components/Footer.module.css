@@ -1,0 +1,18 @@
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  display: block;
+  margin: auto;
+  padding: 30px;
+}
+
+.footer .footerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  text-decoration: underline;
+}
